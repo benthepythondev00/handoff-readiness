@@ -17,10 +17,10 @@ The site has no backend, analytics, cookies, credentials, or form storage. The r
 
 ## Deployment State
 
-- Private deployment source: `https://github.com/benthepythondev00/handoff-readiness`
+- Public deployment source: `https://github.com/benthepythondev00/handoff-readiness`
 - Public domain: `handoffreadiness.com` (registered through 2027-07-10)
 - Sender: `ben@handoffreadiness.com`
-- Current state: production metadata is prepared; DNS, custom mailbox, and public hosting are not complete
+- Current state: GitHub Pages is building; DNS and the custom mailbox are not complete
 
 ## Publication Checklist
 
