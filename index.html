@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A fixed-price, read-only n8n workflow handoff audit that checks ownership, safe changes, failure recovery, acceptance tests, and rollback readiness."
+    />
+    <meta name="theme-color" content="#142433" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Workflow Handoff Readiness Audit" />
+    <meta
+      property="og:description"
+      content="Make one live n8n workflow safe for a client or teammate to own without depending on the original builder."
+    />
+    <meta property="og:image" content="assets/sample-cover.webp" />
+    <title>Workflow Handoff Readiness Audit | $500 n8n Review</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Workflow Handoff Readiness Audit",
+        "description": "A read-only review of one n8n workflow covering operational ownership, safe changes, failure recovery, acceptance testing, and rollback readiness.",
+        "provider": {
+          "@type": "Person",
+          "name": "Ben"
+        },
+        "areaServed": "Worldwide",
+        "offers": {
+          "@type": "Offer",
+          "price": "500",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Handoff Readiness home">
+          <span class="brand-mark" aria-hidden="true">HR</span>
+          <span>Handoff Readiness</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          title="Menu"
+          data-menu-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Primary" data-menu>
+          <a href="#sample">Sample</a>
+          <a href="#deliverables">Deliverables</a>
+          <a href="#process">Process</a>
+          <a href="#faq">FAQ</a>
+          <a class="button button-small" href="#request">Request audit</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <picture class="hero-media" aria-hidden="true">
+          <img
+            src="assets/sample-cover.webp"
+            alt=""
+            width="1241"
+            height="1754"
+            fetchpriority="high"
+          />
+        </picture>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-content">
+          <p class="eyebrow">One workflow. Fixed scope. Independent ownership.</p>
+          <h1>Workflow Handoff Readiness Audit</h1>
+          <p class="hero-lead">
+            Make one live n8n workflow safe for a client or teammate to operate,
+            change, test, and recover without depending on the original builder.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button" href="#request">Request the async audit</a>
+            <a
+              class="button button-secondary"
+              href="assets/sample-n8n-workflow-handoff-pack.pdf"
+              target="_blank"
+              rel="noopener"
+              >View the six-page sample</a
+            >
+          </div>
+
+          <p class="trust-line">
+            Read-only review. Sanitized materials. No credentials required.
+          </p>
+
+          <dl class="hero-facts" aria-label="Audit facts">
+            <div>
+              <dt>$500</dt>
+              <dd>fixed price</dd>
+            </div>
+            <div>
+              <dt>48 hours</dt>
+              <dd>after safe intake</dd>
+            </div>
+            <div>
+              <dt>20 points</dt>
+              <dd>readiness score</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section problem-section" aria-labelledby="problem-title">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark">The transfer problem</p>
+              <h2 id="problem-title">
+                A workflow can run and still be impossible to hand over.
+              </h2>
+            </div>
+            <p>
+              A successful execution proves the happy path. It does not prove that a
+              new owner knows what they may change, who owns each dependency, what to
+              do when it fails, or how to restore the last accepted version.
+            </p>
+          </div>
+
+          <div class="risk-grid" role="list">
+            <article class="risk-item" role="listitem">
+              <span class="risk-number">01</span>
+              <h3>Ownership is implied</h3>
+              <p>
+                The original builder remains the default incident responder because
+                business, technical, credential, and change owners were never named.
+              </p>
+            </article>
+            <article class="risk-item" role="listitem">
+              <span class="risk-number">02</span>
+              <h3>Changes are unsafe</h3>
+              <p>
+                Client-editable settings sit beside structural logic, with no clear
+                boundary between routine configuration and breaking changes.
+              </p>
+            </article>
+            <article class="risk-item" role="listitem">
+              <span class="risk-number">03</span>
+              <h3>Recovery is unproven</h3>
+              <p>
+                Tests cover the demo, not duplicates, expired credentials, API
+                failures, manual queues, escalation, or rollback.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="fit-band" aria-labelledby="fit-title">
+        <div class="container fit-layout">
+          <div>
+            <p class="eyebrow eyebrow-dark">Best fit</p>
+            <h2 id="fit-title">Use it at the moment ownership changes.</h2>
+          </div>
+          <ul class="fit-list">
+            <li>You are handing a completed workflow to a client.</li>
+            <li>A contractor or original builder is leaving the project.</li>
+            <li>Only one person understands how the workflow works.</li>
+            <li>You inherited a workflow and need to regain control.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section sample-section" id="sample" aria-labelledby="sample-title">
+        <div class="container">
+          <div class="section-heading sample-heading">
+            <div>
+              <p class="eyebrow">See the deliverable</p>
+              <h2 id="sample-title">Review the pack before you buy the audit.</h2>
+            </div>
+            <div>
+              <p>
+                The sample uses a fictional lead-intake workflow and contains no
+                customer data, credentials, tokens, or real execution records.
+              </p>
+              <a
+                class="text-link"
+                href="assets/sample-n8n-workflow-handoff-pack.pdf"
+                target="_blank"
+                rel="noopener"
+                >Open the full six-page PDF</a
+              >
+            </div>
+          </div>
+
+          <div class="sample-grid">
+            <a
+              class="sample-page"
+              href="assets/sample-n8n-workflow-handoff-pack.pdf#page=2"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open sample readiness score and workflow contract"
+            >
+              <img
+                src="assets/sample-score.webp"
+                alt="Sample page showing the 20-point readiness score and workflow contract"
+                width="993"
+                height="1404"
+                loading="lazy"
+              />
+              <span>
+                <strong>Readiness score</strong>
+                <small>Ten scored areas plus the accepted workflow contract.</small>
+              </span>
+            </a>
+            <a
+              class="sample-page"
+              href="assets/sample-n8n-workflow-handoff-pack.pdf#page=3"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open sample system map and ownership page"
+            >
+              <img
+                src="assets/sample-system-map.webp"
+                alt="Sample page showing the workflow system map, ownership matrix, and safe-to-edit boundary"
+                width="993"
+                height="1404"
+                loading="lazy"
+              />
+              <span>
+                <strong>System and ownership</strong>
+                <small>Dependencies, accountable owners, and safe change limits.</small>
+              </span>
+            </a>
+            <a
+              class="sample-page"
+              href="assets/sample-n8n-workflow-handoff-pack.pdf#page=5"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open sample acceptance tests and rollback page"
+            >
+              <img
+                src="assets/sample-acceptance.webp"
+                alt="Sample page showing six acceptance tests and the rollback protocol"
+                width="993"
+                height="1404"
+                loading="lazy"
+              />
+              <span>
+                <strong>Acceptance and rollback</strong>
+                <small>Six scenarios, evidence requirements, and restore sequence.</small>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section deliverables-section" id="deliverables" aria-labelledby="deliverables-title">
+        <div class="container deliverables-layout">
+          <div class="section-heading sticky-heading">
+            <p class="eyebrow eyebrow-dark">What you receive</p>
+            <h2 id="deliverables-title">
+              One answer, backed by operating evidence.
+            </h2>
+            <p>
+              Can the receiving owner operate, change, test, and recover this workflow
+              without depending on the original builder?
+            </p>
+          </div>
+
+          <ol class="deliverable-list">
+            <li>
+              <span>01</span>
+              <div>
+                <h3>20-point readiness score</h3>
+                <p>Ten operating areas scored with blockers and accepted gaps.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h3>System and ownership map</h3>
+                <p>Workflow path, dependencies, account owners, and escalation roles.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h3>Safe-to-edit guide</h3>
+                <p>Routine settings separated from structural changes requiring review.</p>
+              </div>
+            </li>
+            <li>
+              <span>04</span>
+              <div>
+                <h3>Failure and recovery runbook</h3>
+                <p>Detection, automatic behavior, operator response, and escalation.</p>
+              </div>
+            </li>
+            <li>
+              <span>05</span>
+              <div>
+                <h3>Six acceptance tests</h3>
+                <p>Happy path, invalid input, duplicate, dependency, and notification failures.</p>
+              </div>
+            </li>
+            <li>
+              <span>06</span>
+              <div>
+                <h3>Baseline and transfer receipt</h3>
+                <p>Version record, rollback checklist, receiving-owner acceptance, and sign-off.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section process-section" id="process" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark">How it works</p>
+              <h2 id="process-title">Async from intake to transfer decision.</h2>
+            </div>
+            <p>
+              No discovery call is required. Start with sanitized materials and the
+              role of the intended new owner.
+            </p>
+          </div>
+
+          <ol class="process-steps">
+            <li>
+              <span>1</span>
+              <h3>Send safe context</h3>
+              <p>
+                A sanitized workflow export or screenshots, tool list, current notes,
+                and one redacted success or failure are enough to begin.
+              </p>
+            </li>
+            <li>
+              <span>2</span>
+              <h3>Read-only review</h3>
+              <p>
+                The workflow is reviewed for ownership, access, safe changes,
+                failures, tests, data handling, baseline, and acceptance.
+              </p>
+            </li>
+            <li>
+              <span>3</span>
+              <h3>Receive the pack</h3>
+              <p>
+                You receive the scored handoff pack within 48 hours after safe intake,
+                plus an optional fixed-price completion scope if useful.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section pricing-section" aria-labelledby="pricing-title">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark">Clear scope</p>
+              <h2 id="pricing-title">Audit first. Implementation only if needed.</h2>
+            </div>
+            <p>
+              The audit is useful on its own. A completion sprint is separate, so the
+              diagnosis is not tied to a larger build.
+            </p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card price-card-primary">
+              <p class="price-label">Handoff Readiness Audit</p>
+              <p class="price"><span>$</span>500</p>
+              <p class="price-note">One workflow. Fixed price. 48-hour delivery.</p>
+              <ul>
+                <li>Read-only review</li>
+                <li>Full scored handoff pack</li>
+                <li>Prioritized completion plan</li>
+                <li>No credentials required</li>
+              </ul>
+              <a class="button" href="#request">Request the audit</a>
+            </article>
+
+            <article class="price-card">
+              <p class="price-label">Optional completion sprint</p>
+              <p class="price price-range"><span>$</span>1,500-3,000</p>
+              <p class="price-note">Quoted separately after the audit.</p>
+              <ul>
+                <li>Settings boundary</li>
+                <li>Failure handling and queues</li>
+                <li>Acceptance test implementation</li>
+                <li>Baseline and transfer receipt</li>
+              </ul>
+              <a class="button button-dark" href="#request">Ask about completion</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="safe-band" aria-labelledby="safe-title">
+        <div class="container safe-layout">
+          <div>
+            <p class="eyebrow">Safe intake</p>
+            <h2 id="safe-title">Share the workflow, never the secrets.</h2>
+            <p>
+              Materials can be sanitized before sharing. Credential names and account
+              owners are useful; secret values are not.
+            </p>
+          </div>
+          <div class="safe-columns">
+            <div>
+              <h3>Useful inputs</h3>
+              <ul>
+                <li>Sanitized workflow JSON</li>
+                <li>Workflow and settings screenshots</li>
+                <li>Tool and account-owner list</li>
+                <li>Redacted execution evidence</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Never requested</h3>
+              <ul>
+                <li>Passwords or API keys</li>
+                <li>Live webhook secrets</li>
+                <li>Unredacted customer records</li>
+                <li>Account takeover access</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="container faq-layout">
+          <div class="section-heading sticky-heading">
+            <p class="eyebrow eyebrow-dark">FAQ</p>
+            <h2 id="faq-title">Before you share a workflow.</h2>
+          </div>
+
+          <div class="faq-list">
+            <details>
+              <summary>Do you need access to the live n8n instance?</summary>
+              <p>
+                No. The audit can start from a sanitized export, screenshots, tool
+                list, operating notes, and redacted execution evidence. Live access is
+                outside the $500 read-only scope.
+              </p>
+            </details>
+            <details>
+              <summary>Does the audit fix the workflow?</summary>
+              <p>
+                The audit identifies and prioritizes the missing transfer controls.
+                Implementation is optional and quoted separately after the findings are
+                clear.
+              </p>
+            </details>
+            <details>
+              <summary>What if the workflow is not ready?</summary>
+              <p>
+                You receive a prioritized P0, P1, and P2 completion plan, the blocked
+                acceptance tests, and the exact evidence needed to declare the transfer
+                complete later.
+              </p>
+            </details>
+            <details>
+              <summary>Can the pack be client-facing?</summary>
+              <p>
+                Yes. The output is designed to support a client or internal transfer.
+                White-label presentation can be agreed before intake.
+              </p>
+            </details>
+            <details>
+              <summary>Is this only for brand-new workflows?</summary>
+              <p>
+                No. It also fits inherited workflows, contractor departures, internal
+                ownership changes, and older automations that run but have no accepted
+                operator or recovery standard.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="request-section" id="request" aria-labelledby="request-title">
+        <div class="container request-layout">
+          <div>
+            <p class="eyebrow">Start asynchronously</p>
+            <h2 id="request-title">Tell me what is being handed over.</h2>
+            <p>
+              The form prepares an email in your own mail app. Nothing is uploaded or
+              stored by this page.
+            </p>
+            <a class="direct-email" href="mailto:bengoedeke@icloud.com"
+              >bengoedeke@icloud.com</a
+            >
+          </div>
+
+          <form class="request-form" data-audit-form>
+            <div class="field-row">
+              <label>
+                Name
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+              <label>
+                Work email
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+            </div>
+            <label>
+              Handoff situation
+              <select name="handoffType" required>
+                <option value="">Select one</option>
+                <option>Builder to client</option>
+                <option>Builder to internal team</option>
+                <option>Inherited workflow</option>
+                <option>Original builder leaving</option>
+              </select>
+            </label>
+            <label>
+              Workflow summary
+              <textarea
+                name="summary"
+                rows="5"
+                placeholder="What the workflow does, who should own it, and what feels unclear."
+                required
+              ></textarea>
+            </label>
+            <button class="button" type="submit">Prepare audit request</button>
+            <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="brand footer-brand" href="#top">
+            <span class="brand-mark" aria-hidden="true">HR</span>
+            <span>Handoff Readiness</span>
+          </a>
+          <p>Independent operating-readiness review for one n8n workflow.</p>
+        </div>
+        <div class="footer-links">
+          <a
+            href="assets/sample-n8n-workflow-handoff-pack.pdf"
+            target="_blank"
+            rel="noopener"
+            >Sample PDF</a
+          >
+          <a href="mailto:bengoedeke@icloud.com">Email</a>
+          <span>&copy; <span data-year></span> Ben</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
