@@ -81,7 +81,7 @@ if (auditForm) {
       formStatus.textContent = "Opening your email app with the request prepared.";
     }
 
-    window.location.href = `mailto:bengoedeke@icloud.com?subject=${encodeURIComponent(
+    window.location.href = `mailto:ben@handoffreadiness.com?subject=${encodeURIComponent(
       subject,
     )}&body=${encodeURIComponent(body)}`;
   });

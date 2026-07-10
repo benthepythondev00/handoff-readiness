@@ -18,17 +18,17 @@ The site has no backend, analytics, cookies, credentials, or form storage. The r
 ## Deployment State
 
 - Private deployment source: `https://github.com/benthepythondev00/handoff-readiness`
-- Planned public domain: `handoffreadiness.com`
-- Planned sender: `ben@handoffreadiness.com`
-- Current state: domain purchase, DNS, custom mailbox, and public hosting are not complete
+- Public domain: `handoffreadiness.com` (registered through 2027-07-10)
+- Sender: `ben@handoffreadiness.com`
+- Current state: production metadata is prepared; DNS, custom mailbox, and public hosting are not complete
 
 ## Publication Checklist
 
-1. Choose the final domain and professional sender mailbox.
-2. Replace `bengoedeke@icloud.com` in `index.html` and `script.js`.
-3. Add the production canonical URL and absolute social-preview URL.
-4. Configure SPF, DKIM, and DMARC for the sender domain.
-5. Publish the folder to a static host and verify every PDF/image path.
-6. Re-run desktop and mobile browser checks against the public URL.
+1. [x] Register `handoffreadiness.com`.
+2. [x] Set `ben@handoffreadiness.com` in the site and request composer.
+3. [x] Add canonical, social-preview, robots, sitemap, and Pages domain files.
+4. [ ] Create the iCloud+ custom mailbox and configure SPF, DKIM, and DMARC.
+5. [ ] Publish through GitHub Pages and verify every PDF/image path.
+6. [ ] Re-run desktop and mobile browser checks against the public URL.
 
 Do not add analytics, a hosted form, payment collection, or account automation without explicit approval and a privacy review.
