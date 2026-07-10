@@ -20,15 +20,16 @@ The site has no backend, analytics, cookies, credentials, or form storage. The r
 - Public deployment source: `https://github.com/benthepythondev00/handoff-readiness`
 - Public domain: `handoffreadiness.com` (registered through 2027-07-10)
 - Sender: `ben@handoffreadiness.com`
-- Current state: web DNS points to GitHub Pages; TLS and the custom mailbox are not complete
+- Current state: public HTTP site and iCloud mailbox are live; GitHub Pages certificate issuance is pending
 
 ## Publication Checklist
 
 1. [x] Register `handoffreadiness.com`.
 2. [x] Set `ben@handoffreadiness.com` in the site and request composer.
 3. [x] Add canonical, social-preview, robots, sitemap, and Pages domain files.
-4. [ ] Finish the iCloud+ mailbox; ownership, DKIM, and DMARC are published, while MX and SPF still use Namecheap forwarding.
-5. [ ] Publish through GitHub Pages and verify every PDF/image path.
-6. [ ] Re-run desktop and mobile browser checks against the public URL.
+4. [x] Activate `ben@handoffreadiness.com` in iCloud+ with Apple MX, SPF, DKIM, ownership TXT, and monitoring DMARC.
+5. [x] Publish through GitHub Pages and verify the page, PDF, images, scripts, favicon, robots, and sitemap over the custom-domain HTTP edge.
+6. [x] Re-run desktop and mobile browser checks against the public domain at 1800px, 390px, and 320px.
+7. [ ] Enable HTTPS after GitHub finishes issuing the certificate, then repeat the public smoke check over TLS.
 
 Do not add analytics, a hosted form, payment collection, or account automation without explicit approval and a privacy review.
