@@ -15,6 +15,13 @@ Open `http://127.0.0.1:8090/`.
 
 The site has no backend, analytics, cookies, credentials, or form storage. The request form prepares a message in the visitor's local email application.
 
+## Deployment State
+
+- Private deployment source: `https://github.com/benthepythondev00/handoff-readiness`
+- Planned public domain: `handoffreadiness.com`
+- Planned sender: `ben@handoffreadiness.com`
+- Current state: domain purchase, DNS, custom mailbox, and public hosting are not complete
+
 ## Publication Checklist
 
 1. Choose the final domain and professional sender mailbox.
